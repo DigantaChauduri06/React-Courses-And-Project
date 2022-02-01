@@ -1,0 +1,15 @@
+.card {
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 5px #1f1f1faf;
+  padding: 10px;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 4px;
+}
+.btn {
+  width: 40%;
+  height: 45px;
+  background-color: rgb(230, 100, 100);
+  border: none;
+  border-radius: 3px;
+}

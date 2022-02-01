@@ -15,8 +15,7 @@ function App() {
     { title: "This is Title No 3 And We are going to Kolkata", id: 3 },
   ]);
   // Best Practice to change state in an array
-  console.log(showModalView);
-  console.log("showModal", showModal);
+  const arr = [1, 2, 3, 4, 5];
   const handleClick = (id) => {
     setEvents((prevEvents) => {
       return prevEvents.filter((item) => {
@@ -71,6 +70,8 @@ function App() {
           <Modal
             handleCloseModal={handleCloseModal}
             handleShowModalView={handleShowModalView}
+            isModal={true}
+            upper={false}
           >
             <h2>Hello</h2>
             <p>
