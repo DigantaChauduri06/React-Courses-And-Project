@@ -1,0 +1,15 @@
+.new-event-form label,
+.new-event-form input {
+  display: block;
+  margin: 5px;
+  width: 100%;
+  /* padding: 5px; */
+}
+.btn-wrapper {
+  display: block;
+  text-align: center;
+}
+.btn-wrapper button {
+  text-align: center;
+  width: 60%;
+}

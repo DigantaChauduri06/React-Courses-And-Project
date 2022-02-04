@@ -4,7 +4,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #1f1f1f86;
+  background-color: #1f1f1f;
+  color: #abb0cc;
   overflow: scroll;
 }
 .modal {
@@ -15,9 +16,30 @@
   border-radius: 10px;
   overflow: scroll;
 }
+p {
+  color: #bbb;
+}
 .sales {
   color: blue;
 }
 .not-sales {
   display: none;
+}
+.btn-close {
+  display: block;
+  text-align: center;
+  height: 50px;
+}
+.modal h2 {
+  color: #ddd;
+  display: block;
+  text-align: center;
+}
+button {
+  width: 30%;
+  height: 100%;
+  font-size: 24px;
+  background-color: #ccc;
+  box-shadow: inherit;
+  border-radius: 20px;
 }

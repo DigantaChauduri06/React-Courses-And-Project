@@ -3,7 +3,7 @@ import style from "../css/Eventlist.module.css";
 export default function Event({ events, handleClick }) {
   return events.map((item, idx) => (
     <div>
-      <div className={style.card} key={item.id}>
+      <div className={style.card} key={idx}>
         <h2>
           {idx} -- {item.title}
         </h2>
