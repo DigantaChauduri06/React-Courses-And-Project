@@ -6,10 +6,19 @@
   margin: 45px 0;
 }
 .form input,
-button {
+button,
+select {
   margin: 10px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 20%;
+  padding: 10px;
 }
 button {
   width: 10%;
   margin-left: 45%;
+}
+select {
+  display: block;
+  margin: 0 auto;
 }
