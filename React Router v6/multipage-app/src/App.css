@@ -1,0 +1,21 @@
+.btn {
+  display: inline-block;
+  margin: 30px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  color: #1a1a1a;
+  text-align: center;
+  padding-top: 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  background: linear-gradient(to right, #dd3e54, #6be585);
+  text-transform: capitalize;
+  text-indent: 2px;
+}
+.btn:hover {
+  transform: scale(1.19);
+  transform: rotate(2deg);
+  box-shadow: 10px 10px 78px -34px rgba(66, 11, 11, 0.75) inset;
+  transition: all 200ms ease-in-out;
+}
