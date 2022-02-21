@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #920b61;
+  display: flex;
+  height: 60px;
+}
+.nav-heading,
+.btn-create-recipe {
+  color: #fff;
+  align-self: center;
+  text-decoration: none;
+}
+.nav-heading {
+  flex-grow: 4;
+  margin-left: 60px;
+}
+.btn-create-recipe {
+  flex-grow: 2;
+  border: 2px solid #fff;
+  width: 1%;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 60px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: 700;
+}
+.btn-create-recipe:hover {
+  color: #555;
+  background: #f1f1f1;
+  transition: all 200ms ease-in-out;
+}
