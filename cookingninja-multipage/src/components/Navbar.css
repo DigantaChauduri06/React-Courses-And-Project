@@ -1,7 +1,7 @@
 .navbar {
   background-color: #920b61;
   display: flex;
-  height: 60px;
+  height: 90px;
 }
 .nav-heading,
 .btn-create-recipe {
