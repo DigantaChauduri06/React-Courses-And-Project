@@ -1,0 +1,63 @@
+.recipe-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.recipe-list .card {
+  background-color: #fff;
+  color: #1f1f1f;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.36);
+  transition: all 300ms ease-in-out;
+  position: relative;
+}
+.recipe-list .card:hover {
+  transform: rotate(4deg);
+}
+
+.recipe-list .card h3 {
+  padding: 10px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.recipe-list .card p {
+  font-size: 0.7rem;
+  font-family: cursive;
+  text-align: right;
+}
+.recipe-list .card p::before {
+  content: "~ ";
+}
+.recipe-list .card p::after {
+  content: " ♥♥";
+}
+
+.recipe-list .card div {
+  font-size: 0.9rem;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.recipe-list .card a {
+  text-decoration: none;
+  color: #1f1f1f;
+  border: 2px solid #1f1f1f;
+  background-color: #ccc;
+  padding: 7px 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+.recipe-list .card a:hover {
+  transform: scale(1.1);
+  transition: all 300ms ease-in-out;
+  background: rgba(72, 241, 128, 0.36);
+  color: rgb(15, 13, 13);
+}

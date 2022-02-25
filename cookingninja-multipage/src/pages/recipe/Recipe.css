@@ -1,0 +1,38 @@
+.single-recipe {
+  background: #fff;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 40px;
+}
+.single-recipe > * {
+  padding: 10px 0;
+}
+.single-recipe h1 {
+  letter-spacing: 3px;
+  font-family: cursive;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.single-recipe ul {
+  display: flex;
+  justify-content: center;
+}
+
+.single-recipe li {
+  list-style: none;
+  margin-right: 10px;
+  color: #777;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.single-recipe li::after {
+  content: ",";
+}
+.single-recipe p {
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+}
+
+.single-recipe li:last-child::after {
+  content: ".";
+}
